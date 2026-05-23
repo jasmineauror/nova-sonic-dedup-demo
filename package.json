@@ -1,0 +1,13 @@
+{
+  "name": "nova-sonic-dedup-demo",
+  "version": "1.0.0",
+  "description": "Minimal reproduction of Nova Sonic SPECULATIVE/FINAL stream deduplication logic",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
